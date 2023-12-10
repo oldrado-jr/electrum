@@ -3,7 +3,12 @@
 @use 'layouts-mixins'
 
 .deal-container
-  background: variables.$section-bg-color url('../../img/deal_headset.png') no-repeat 95% 2rem / 25%
+  background-color: variables.$section-bg-color
+  background-image: url('/img/deal_headset.png'), url('/electrum/img/deal_headset.png')
+  background-repeat: no-repeat
+  background-position-x: 95%
+  background-position-y: 2rem
+  background-size: 25%
   height: 400px
   padding: 2rem
 
